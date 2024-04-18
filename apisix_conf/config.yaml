@@ -1,0 +1,12 @@
+apisix:
+  extra_lua_path: "/opt/?.lua"
+
+deployment:
+  role: data_plane
+  role_data_plane:
+    config_provider: yaml
+
+plugins:
+#  - limit-conn
+
+#END
